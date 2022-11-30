@@ -1,0 +1,11 @@
+.post-series {
+    color: var(--secondary);
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-series a {
+    color: var(--secondary);
+    font-size: 14px;
+}
