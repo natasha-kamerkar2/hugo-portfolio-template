@@ -1,6 +1,6 @@
-baseURL = 'https://john-doe.github.io/'
+baseURL = 'https://natasha-kamerkar2.github.io/'
 languageCode = 'en-us'
-title = 'John'
+title = 'Natasha'
 theme = 'hugo-PaperMod'
 
 [params]
@@ -18,17 +18,17 @@ theme = 'hugo-PaperMod'
     [params.profileMode]
         enabled = true
         Title = "Hi there 👋"
-        Subtitle = "Welcome to my blog"
+        Subtitle = "Welcome"
         Content = ""
     [[params.socialIcons]]
         name = "github"
-        url = "https://github.com/john-doe/"
+        url = "https://github.com/natasha-kamerkar2/"
     [[params.socialIcons]]
         name = "twitter"
-        url = "https://twitter.com/john-doe"
+        url = "https://twitter.com/nutoo2/"
     [[params.socialIcons]]
         name = "linkedin"
-        url = "https://www.linkedin.com/in/john-doe/"
+        url = "https://linkedin.com/in/natasha-kamerkar/"
 
 [taxonomies]
     tag = "tags"
@@ -36,31 +36,20 @@ theme = 'hugo-PaperMod'
 
 [menu]
     [[menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/posts/"
-        weight = 20
-    [[menu.main]]
-        identifier = "series"
-        name = "Series"
-        url = "/series/"
-        weight = 30
-    [[menu.main]]
         identifier = "projects"
         name = "Projects"
         url = "/projects/"
-        weight = 40
+        weight = 10
     [[menu.main]]
         identifier = "tags"
         name = "Tags"
         url = "/tags/"
-        weight = 50
+        weight = 20
     [[menu.main]]
         identifier = "about"
         name = "About"
         url = "/about/"
-        weight = 60
-
+        weight = 30
 
 [markup.goldmark.renderer]
     unsafe = true

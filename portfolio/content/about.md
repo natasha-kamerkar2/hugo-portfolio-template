@@ -2,7 +2,7 @@
 title: "About"
 layout: "about"
 url: "/about/"
-author: ["John Doe"]
+author: ["Natasha Kamerkar"]
 ---
 
 About page
